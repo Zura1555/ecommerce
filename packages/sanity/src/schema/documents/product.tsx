@@ -15,7 +15,7 @@ const GROUPS = [
   },
   {
     name: 'shopifySync',
-    title: 'Shopify sync',
+    title: 'Product Details',
     icon: ShopifyIcon,
   },
   {
@@ -96,9 +96,9 @@ export default defineType({
     }),
     defineField({
       name: 'store',
-      title: 'Shopify',
-      type: 'shopifyProduct',
-      description: 'Product data from Shopify (read-only)',
+      title: 'Product Information',
+      type: 'editableProduct',
+      description: 'Product pricing, inventory, and basic information',
       group: 'shopifySync',
     }),
     defineField({
