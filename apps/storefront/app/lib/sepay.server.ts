@@ -13,7 +13,7 @@
  *    - SEPAY_SANDBOX=true (for testing)
  */
 
-import crypto from 'crypto';
+import crypto from 'node:crypto';
 
 interface SepayPaymentRequest {
   orderId: string;
