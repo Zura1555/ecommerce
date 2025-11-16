@@ -71,6 +71,7 @@ import shopifyCollection from './objects/shopifyCollection'
 import shopifyCollectionRule from './objects/shopifyCollectionRule'
 import shopifyProduct from './objects/shopifyProduct'
 import shopifyProductVariant from './objects/shopifyProductVariant'
+import editableProduct from './objects/editableProduct'
 
 const objects = [
   creator,
@@ -107,6 +108,7 @@ const objects = [
   shopifyCollectionRule,
   shopifyProduct,
   shopifyProductVariant,
+  editableProduct,
 ]
 
 export const types = [...annotations, ...documents, ...singletons, ...objects, ...blocks]
